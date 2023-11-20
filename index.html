@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglo de objetos</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="titulo">
+                <h1>Todo List</h1>
+            </div>
+            <hr>
+            <div class="contenido">
+                <div class="nueva_t_input">
+                    <div class="nueva_tarea">
+                        <h5>Nueva tarea</h5>
+                    </div>
+                    <div class="input_agregar">
+                        <input id="input_tarea" class="input" type="text">
+                        <button id="button_agregar" onclick="agregar()">Agregar</button>
+                    </div>
+                </div>
+                <div class="tareas_resumen">
+                    <div class="tareas">
+                        <p id="total" class="total">Total:0</p>
+                        <p id="total_realizadas" class="realizadas">Realizadas:0</p>
+                    </div>
+                    <div class="resumen">
+                        <div class="id_tarea">
+                            <div class="id">
+                                <h5>ID</h5>
+                                <ul></ul>
+                            </div>
+                            <div class="tarea">
+                                <h5>Tarea</h5>
+                                <ul id="lista_tareas"></ul>
+                            </div>
+                        </div>
+                        <div class="tareas_check">
+                            <ul class="lista_li" id="lista_tarea">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/JavaScript/js.js"></script>
+</body>
+
+</html>
